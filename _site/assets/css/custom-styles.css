@@ -86,13 +86,3 @@ li {
     color: #FFFFFF !important;
 }
 
-
-/* Wrapper for positioning the Instagram buttons */
-.instagram-buttons {
-    position: absolute;
-    bottom: 30px; /* Adjust as needed for spacing from the bottom */
-    right: 30px; /* Adjust as needed for spacing from the right */
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-}
