@@ -66,6 +66,7 @@
 
 .testimonial {
     margin: 0 10vw 0 10vw;
+    padding: 1rem;
 }
 
 @media screen and (max-width: 800px) {
