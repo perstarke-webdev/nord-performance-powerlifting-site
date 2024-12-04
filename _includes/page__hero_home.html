@@ -1,0 +1,49 @@
+{% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+
+{% if page.header.overlay_filter contains "gradient" %}
+  {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+{% elsif page.header.overlay_filter contains "rgba" %}
+  {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% elsif page.header.overlay_filter %}
+  {% capture overlay_filter %}rgba(0, 0, 0, {{ page.header.overlay_filter }}){% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% endif %}
+
+{% if page.header.image_description %}
+  {% assign image_description = page.header.image_description %}
+{% else %}
+  {% assign image_description = page.title %}
+{% endif %}
+
+{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+
+<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
+     style="text-align: center; {% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}; height: 90vh; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+
+  {% if page.header.overlay_color or page.header.overlay_image %}
+
+  <div class="wrapper">
+    <h1 id="page-title" class="page__title margin-top home-title" itemprop="headline">
+      {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+    </h1>
+
+    <!-- Instagram buttons positioned in the bottom right -->
+    <div class="instagram-buttons">
+      <a href="https://www.instagram.com/nord_performance_coaching/" rel="noopener noreferrer nofollow" target="_blank" class="btn btn--primary">
+        <i class="fab fa-instagram" aria-hidden="true"></i> NP Coaching
+      </a>
+      <a href="https://www.instagram.com/fitnessfelix10/" rel="noopener noreferrer nofollow" target="_blank" class="btn btn--primary margin-top-xs">
+        <i class="fab fa-instagram" aria-hidden="true"></i> Felix Brüning
+      </a>
+    </div>
+  </div>
+
+
+
+
+  {% endif %}
+  {% if page.header.caption %}
+    <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+</div>

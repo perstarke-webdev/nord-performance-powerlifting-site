@@ -20,7 +20,8 @@
 }
 
 .box--success {
-    border-color: $success-color
+    border-color: $footer-background-color;
+    padding-top: 1rem;
 }
 
 .box--warning {

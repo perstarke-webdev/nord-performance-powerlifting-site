@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  OneFlow Jekyll Theme 1.0 by Per Starme
+  OneFlow Jekyll Theme 1.0 by Per Starke
   Copyright 2024 Per Starke - https://perstarke-webdev.de/
   Free for personal and commercial use under the MIT license
   https://opensource.org/license/mit/
@@ -17,21 +17,23 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Über mich - Nord Performance Powerlifting</title>
-<meta name="description" content="">
+<!-- begin _includes/seo.html --><title>Über Coach Felix - Nord Performance Powerlifting</title>
+<meta name="description" content="Moin, ich bin Felix – Physiotherapeut, Powerlifter und Online Coach">
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Nord Performance Powerlifting">
-<meta property="og:title" content="Über mich">
+<meta property="og:title" content="Über Coach Felix">
 <meta property="og:url" content="http://0.0.0.0:4000/about">
 
 
+  <meta property="og:description" content="Moin, ich bin Felix – Physiotherapeut, Powerlifter und Online Coach">
 
 
-  <meta property="og:image" content="http://0.0.0.0:4000/assets/images/header.webp">
+
+  <meta property="og:image" content="http://0.0.0.0:4000/assets/images/header.jpg">
 
 
 
@@ -87,12 +89,11 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 
 <!-- end custom head snippets -->
 
@@ -101,12 +102,12 @@
   <body class="layout--page">
     
 
-<div class="masthead" style="opacity: 0.85 !important; ">
+<div class="masthead" style="opacity: 0.8 !important;  position: sticky;">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo.webp" alt=" "></a>
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt=" "></a>
         
         <a class="site-title" href="/">
            
@@ -115,7 +116,7 @@
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/#goals" >Deine Ziele</a>
             </li><li class="masthead__menu-item">
-              <a href="/#services" >Angebot</a>
+              <a href="/#services" >Angebote</a>
             </li><li class="masthead__menu-item">
               <a href="/about" >Über mich</a>
             </li><li class="masthead__menu-item">
@@ -156,28 +157,17 @@
 
         
         <div id="cookie-banner">
-    This website is made available via GitHub Pages, which means it uses a global distribution network (CDN) to reliably display content. When you use the website, some of your non-personal data, such as IP address and page usage information, may be transmitted over this network to ensure the proper functioning of the website.
-    You can find more information in the
+    Diese Website wird über GitHub Pages zur Verfügung gestellt, was bedeutet, dass sie ein globales Verteilungsnetzwerk (CDN) nutzt, um Inhalte zuverlässig anzuzeigen. Wenn Sie die Website nutzen, können einige Ihrer nicht-personenbezogenen Daten, wie z. B. die IP-Adresse und Informationen zur Seitennutzung, über dieses Netzwerk übertragen werden, um das ordnungsgemäße Funktionieren der Website zu gewährleisten.
+    Mehr Informationen dazu finden Sie im
     <a href="/imprint#github-pages-und-cdn-nutzung"
        target="_blank" rel="noopener noreferrer nofollow">
-        imprint</a><br><br>
+        Impressum</a><br><br>
 
 
-    Please confirm that you agree to this and that we use a consent cookie that is stored for a period of one day. This cookie enables us to save your consent to the use of non-personal data and the proper functioning of the website.<br><br>
+    Bitte bestätigen Sie, dass Sie damit einverstanden sind und dass wir ein Zustimmungs-Cookie verwenden, das für die Dauer von einem Tag gespeichert wird. Dieses Cookie ermöglicht es uns, Ihre Zustimmung zur Verwendung nicht-personenbezogener Daten zu speichern und das ordnungsgemäße Funktionieren der Website zu gewährleisten<br><br>
 
-    <small>For information in german, refer to the
-        <a href="/imprint"
-           target="_blank" rel="noopener noreferrer nofollow">
-            imprint</a>
-    </small>
-
-    <br><br>
-
-    <button class="btn btn--warning" id="cookie-consent-btn">Agree</button>
+    <button class="btn btn--warning" id="cookie-consent-btn">Zustimmen</button>
 </div>
-
-
-
 
 
 
@@ -198,6 +188,7 @@
 
     document.getElementById('cookie-consent-btn').addEventListener('click', setCookieConsent);
 </script>
+
         
 
       <div class="initial-content">
@@ -211,15 +202,15 @@
 
 
 <div class="page__hero--overlay"
-     style=" background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/header.webp');; height: 100vh; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+     style=" background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/header.jpg');; height: 80vh; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
   
     <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
-          Über mich
+      <h1 id="page-title" class="page__title margin-top-m" itemprop="headline">
+          Über Coach Felix
 
       </h1>
       
-        <p class="page__lead">
+        <p class="page__lead">Moin, ich bin Felix – Physiotherapeut, Powerlifter und Online Coach
 </p>
       
       
@@ -232,7 +223,64 @@
 
 <div id="main" role="main">
     <section class="page__content" itemprop="text">
-      
+      <b class="gold-mobile italic">
+    Meine Leidenschaft zum Sport bestand schon immer.
+    Es gab, seit ich denken kann, keine Zeit, zu der ich mal keinen Sport gemacht habe.
+</b>
+
+<br><br>
+
+
+
+
+
+    
+
+        <div class="itr-container">
+            <div class="itr-image-container">
+                <img src="/assets/images/coach-felix.jpg" alt="Coach Felix" class="itr-image" 
+                style="width:400px">
+            </div>
+            <div class="itr-text">
+                
+                
+                    <p> Meine persönliche sportliche Laufbahn entwickelte sich vor allem durch Fußball, welchen ich über 20 Jahre lang spielte bevor ich vor ca. 10 Jahren anfing, nebenbei mit dem Krafttraining zu starten. Im Kraftsport entwickelte sich schnell eine Leidenschaft, nachdem ich merkte, wie sehr ich auch beim Fußball davon profitierte. Als ich dann auf Powerlifting aufmerksam wurde und sah, wie stark man werden kann, war der Ehrgeiz auch in Bezug auf Ziele, Zahlen und Wettkämpfe erwacht. Da meine eigene sportliche Laufbahn als Jugendlicher oft von Verletzungen geprägt war, kam ich dazu, den Beruf als Physiotherapeut einzuschlagen. Hier konnte ich mein Wissen nun über die letzten 10 Jahre aufbauen und wertvolle Erfahrung sammeln.</p>
+                
+                
+            </div>
+        </div>
+
+    
+
+
+
+Das Online Coaching baute sich nebenbei zunächst als Selbstexperiment und dann mit Freunden auf.
+Hier bekam ich schnell gutes Feedback und Resultate,
+wodurch ich mich in diesem Bereich dann gerne etablieren wollte,
+da meine große Leidenschaft schon immer besonders von der Arbeit mit Sportlern geprägt war.
+Die Arbeit mit Patienten und Athleten ist zum Teil sehr ähnlich.
+Eine gute <b>Kommunikation, Vertrauen und Ehrgeiz</b> sind
+für mich persönlich der Schlüssel für eine gute Zusammenarbeit und Erfolg.
+Ich möchte für dich als objektiver Betrachter und Ansprechpartner fungieren und mein Wissen
+und meine Erfahrungen einbringen, <b>um dich auf dem Weg zu deinen Zielen bestmöglich zu unterstützen!</b>
+
+
+
+<div class="notice--primary">
+
+    <b class="big">Meine Qualifikationen</b>
+
+    <ul>
+        <li>Physiotherapeut & Bachelor of Science Physiotherapie</li>
+        <li>Ausgebildeter Athletiktrainer</li>
+        <li>Diverse Fortbildungen (u.a. Sporthphysiotherapie und Manualtherapie)</li>
+        <li>+ 20 Jahre Sporterfahrung</li>
+        <li>+ 10 Jahre Kraftsporterfahrung</li>
+        <li>+ 10 Jahre Erfahrung mit Sportlern & Patienten</li>
+    </ul>
+
+</div>
+
     </section>
 </div>
 
@@ -253,6 +301,11 @@
     
     
     
+    <li class="socials__item">
+      <a href="mailto: nordperformancecoaching@gmail.com" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Email">
+        <i class="fa fa-envelope footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
     
     
     
@@ -262,6 +315,21 @@
     
     
     
+    
+    
+    <li class="socials__item">
+      <a href="https://www.instagram.com/nord_performance_coaching/" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Instagram: Nord Performance Coaching">
+        <i class="fab fa-instagram footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+    
+    
+    <li class="socials__item">
+      <a href="hhttps://www.instagram.com/fitnessfelix10/" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Instagram: Felix Brüning">
+        <i class="fab fa-instagram footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
     
     
     
@@ -279,7 +347,7 @@
 
   </div>
 
-  <div class="page__footer-copyright">&copy; 2024 Per Starke Web Development.  Created by <a rel="noopener noreferrer nofollow" target="_blank"href="https://perstarke-webdev.de">Per Starke Web Development</a></div>
+  <div class="page__footer-copyright">&copy; 2024 Felix Brüning.  Created by <a rel="noopener noreferrer nofollow" target="_blank"href="https://perstarke-webdev.de">Per Starke Web Development</a></div>
 
         </footer>
       </div>
@@ -290,7 +358,29 @@
   <script src="/assets/js/main.min.js"></script>
 
 
+<script src="/assets/js/swiper-bundle.min.js"></script>
 
+
+
+
+<script>
+      document.addEventListener('DOMContentLoaded', function () {
+  var mySwiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // Enable smooth sliding
+    speed: 400,
+  });
+});
+
+    </script>
 
 
   </body>

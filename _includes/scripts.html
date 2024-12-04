@@ -6,8 +6,30 @@
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 {% endif %}
 
+<script src="/assets/js/swiper-bundle.min.js"></script>
+
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+
+<script>
+      document.addEventListener('DOMContentLoaded', function () {
+  var mySwiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // Enable smooth sliding
+    speed: 400,
+  });
+});
+
+    </script>

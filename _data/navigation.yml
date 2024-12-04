@@ -3,7 +3,7 @@ main:
   - title: "Deine Ziele"
     url: /#goals
     blank: false
-  - title: "Angebot"
+  - title: "Angebote"
     url: /#services
     blank: false
   - title: "Über mich"

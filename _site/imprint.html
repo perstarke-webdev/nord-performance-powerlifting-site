@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  OneFlow Jekyll Theme 1.0 by Per Starme
+  OneFlow Jekyll Theme 1.0 by Per Starke
   Copyright 2024 Per Starke - https://perstarke-webdev.de/
   Free for personal and commercial use under the MIT license
   https://opensource.org/license/mit/
@@ -85,12 +85,11 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 
 <!-- end custom head snippets -->
 
@@ -99,12 +98,12 @@
   <body class="layout--page">
     
 
-<div class="masthead" style="opacity: 0.85 !important; ">
+<div class="masthead" style="opacity: 0.8 !important;  position: sticky;">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo.webp" alt=" "></a>
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt=" "></a>
         
         <a class="site-title" href="/">
            
@@ -113,7 +112,7 @@
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/#goals" >Deine Ziele</a>
             </li><li class="masthead__menu-item">
-              <a href="/#services" >Angebot</a>
+              <a href="/#services" >Angebote</a>
             </li><li class="masthead__menu-item">
               <a href="/about" >Über mich</a>
             </li><li class="masthead__menu-item">
@@ -154,28 +153,17 @@
 
         
         <div id="cookie-banner">
-    This website is made available via GitHub Pages, which means it uses a global distribution network (CDN) to reliably display content. When you use the website, some of your non-personal data, such as IP address and page usage information, may be transmitted over this network to ensure the proper functioning of the website.
-    You can find more information in the
+    Diese Website wird über GitHub Pages zur Verfügung gestellt, was bedeutet, dass sie ein globales Verteilungsnetzwerk (CDN) nutzt, um Inhalte zuverlässig anzuzeigen. Wenn Sie die Website nutzen, können einige Ihrer nicht-personenbezogenen Daten, wie z. B. die IP-Adresse und Informationen zur Seitennutzung, über dieses Netzwerk übertragen werden, um das ordnungsgemäße Funktionieren der Website zu gewährleisten.
+    Mehr Informationen dazu finden Sie im
     <a href="/imprint#github-pages-und-cdn-nutzung"
        target="_blank" rel="noopener noreferrer nofollow">
-        imprint</a><br><br>
+        Impressum</a><br><br>
 
 
-    Please confirm that you agree to this and that we use a consent cookie that is stored for a period of one day. This cookie enables us to save your consent to the use of non-personal data and the proper functioning of the website.<br><br>
+    Bitte bestätigen Sie, dass Sie damit einverstanden sind und dass wir ein Zustimmungs-Cookie verwenden, das für die Dauer von einem Tag gespeichert wird. Dieses Cookie ermöglicht es uns, Ihre Zustimmung zur Verwendung nicht-personenbezogener Daten zu speichern und das ordnungsgemäße Funktionieren der Website zu gewährleisten<br><br>
 
-    <small>For information in german, refer to the
-        <a href="/imprint"
-           target="_blank" rel="noopener noreferrer nofollow">
-            imprint</a>
-    </small>
-
-    <br><br>
-
-    <button class="btn btn--warning" id="cookie-consent-btn">Agree</button>
+    <button class="btn btn--warning" id="cookie-consent-btn">Zustimmen</button>
 </div>
-
-
-
 
 
 
@@ -196,6 +184,7 @@
 
     document.getElementById('cookie-consent-btn').addEventListener('click', setCookieConsent);
 </script>
+
         
 
       <div class="initial-content">
@@ -203,28 +192,20 @@
 
 <div id="main" role="main">
     <section class="page__content" itemprop="text">
-      <h4 id="german-imprint">German Imprint</h4>
-<p>This imprint &amp; privacy note is in German, as I (Per Starke, the responsible person) am German, and it’s therefore
-required by German Law. Contact me or use translation tools for an english version.</p>
-
-<hr />
+      <p><br /><br /><br /><br /><br /></p>
 
 <h4 id="anbieter-und-verantwortliche-person">Anbieter und Verantwortliche Person</h4>
-<p>Per Starke, Willi-Lauf Allee 43, D-50858 Köln</p>
+<p>Felix Brüning <br />
+Alsenstraße 10 <br />
+25436 Uetersen</p>
 
 <h4 id="kontakt">Kontakt</h4>
-<p>Telefon: +49 160 93268817
-<br />
-e-Mail: per_at_starke-team.de
-<br /></p>
-
-<p><a href="https://perstarke-webdev.de/">Website</a> <br />
-<a href="https://blog.perstarke-webdev.de/">Blog</a></p>
+<p>nordperformancecoaching_at_gmail.com</p>
 
 <h2 id="datenschutzerklärung">Datenschutzerklärung</h2>
 
 <h4 id="geltungsbereich">Geltungsbereich</h4>
-<p>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Per Starke auf dieser Website (im folgenden “Angebot”) auf.<br />
+<p>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Felix Brüning auf dieser Website (im folgenden “Angebot”) auf.<br />
 <br />
 Die rechtlichen Grundlagen des Datenschutzes finden sich in der Datenschutzgrundverordnung (DSGVO), dem Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).<br />
 <br /></p>
@@ -302,6 +283,11 @@ erlaubt die Darstellung diverser Icon-Symbole auf unseren Seiten.</p>
     
     
     
+    <li class="socials__item">
+      <a href="mailto: nordperformancecoaching@gmail.com" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Email">
+        <i class="fa fa-envelope footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
     
     
     
@@ -311,6 +297,21 @@ erlaubt die Darstellung diverser Icon-Symbole auf unseren Seiten.</p>
     
     
     
+    
+    
+    <li class="socials__item">
+      <a href="https://www.instagram.com/nord_performance_coaching/" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Instagram: Nord Performance Coaching">
+        <i class="fab fa-instagram footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+    
+    
+    <li class="socials__item">
+      <a href="hhttps://www.instagram.com/fitnessfelix10/" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Instagram: Felix Brüning">
+        <i class="fab fa-instagram footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
     
     
     
@@ -328,7 +329,7 @@ erlaubt die Darstellung diverser Icon-Symbole auf unseren Seiten.</p>
 
   </div>
 
-  <div class="page__footer-copyright">&copy; 2024 Per Starke Web Development.  Created by <a rel="noopener noreferrer nofollow" target="_blank"href="https://perstarke-webdev.de">Per Starke Web Development</a></div>
+  <div class="page__footer-copyright">&copy; 2024 Felix Brüning.  Created by <a rel="noopener noreferrer nofollow" target="_blank"href="https://perstarke-webdev.de">Per Starke Web Development</a></div>
 
         </footer>
       </div>
@@ -339,7 +340,29 @@ erlaubt die Darstellung diverser Icon-Symbole auf unseren Seiten.</p>
   <script src="/assets/js/main.min.js"></script>
 
 
+<script src="/assets/js/swiper-bundle.min.js"></script>
 
+
+
+
+<script>
+      document.addEventListener('DOMContentLoaded', function () {
+  var mySwiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // Enable smooth sliding
+    speed: 400,
+  });
+});
+
+    </script>
 
 
   </body>

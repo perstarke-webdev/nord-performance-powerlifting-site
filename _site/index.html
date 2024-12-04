@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  OneFlow Jekyll Theme 1.0 by Per Starme
+  OneFlow Jekyll Theme 1.0 by Per Starke
   Copyright 2024 Per Starke - https://perstarke-webdev.de/
   Free for personal and commercial use under the MIT license
   https://opensource.org/license/mit/
@@ -17,7 +17,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Nord Performance Coaching - Nord Performance Powerlifting</title>
+<!-- begin _includes/seo.html --><title>Nord Performance - Nord Performance Powerlifting</title>
 <meta name="description" content="">
 
 
@@ -25,13 +25,13 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Nord Performance Powerlifting">
-<meta property="og:title" content="Nord Performance Coaching">
+<meta property="og:title" content="Nord Performance">
 <meta property="og:url" content="http://0.0.0.0:4000/">
 
 
 
 
-  <meta property="og:image" content="http://0.0.0.0:4000/assets/images/header.webp">
+  <meta property="og:image" content="http://0.0.0.0:4000/assets/images/header.jpg">
 
 
 
@@ -87,26 +87,25 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 
 <!-- end custom head snippets -->
 
   </head>
 
-  <body class="layout--page">
+  <body class="layout--page_home">
     
 
-<div class="masthead" style="opacity: 0.85 !important; ">
+<div class="masthead" style="opacity: 0.8 !important;  position: sticky;">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo.webp" alt=" "></a>
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt=" "></a>
         
         <a class="site-title" href="/">
            
@@ -115,7 +114,7 @@
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/#goals" >Deine Ziele</a>
             </li><li class="masthead__menu-item">
-              <a href="/#services" >Angebot</a>
+              <a href="/#services" >Angebote</a>
             </li><li class="masthead__menu-item">
               <a href="/about" >Über mich</a>
             </li><li class="masthead__menu-item">
@@ -156,28 +155,17 @@
 
         
         <div id="cookie-banner">
-    This website is made available via GitHub Pages, which means it uses a global distribution network (CDN) to reliably display content. When you use the website, some of your non-personal data, such as IP address and page usage information, may be transmitted over this network to ensure the proper functioning of the website.
-    You can find more information in the
+    Diese Website wird über GitHub Pages zur Verfügung gestellt, was bedeutet, dass sie ein globales Verteilungsnetzwerk (CDN) nutzt, um Inhalte zuverlässig anzuzeigen. Wenn Sie die Website nutzen, können einige Ihrer nicht-personenbezogenen Daten, wie z. B. die IP-Adresse und Informationen zur Seitennutzung, über dieses Netzwerk übertragen werden, um das ordnungsgemäße Funktionieren der Website zu gewährleisten.
+    Mehr Informationen dazu finden Sie im
     <a href="/imprint#github-pages-und-cdn-nutzung"
        target="_blank" rel="noopener noreferrer nofollow">
-        imprint</a><br><br>
+        Impressum</a><br><br>
 
 
-    Please confirm that you agree to this and that we use a consent cookie that is stored for a period of one day. This cookie enables us to save your consent to the use of non-personal data and the proper functioning of the website.<br><br>
+    Bitte bestätigen Sie, dass Sie damit einverstanden sind und dass wir ein Zustimmungs-Cookie verwenden, das für die Dauer von einem Tag gespeichert wird. Dieses Cookie ermöglicht es uns, Ihre Zustimmung zur Verwendung nicht-personenbezogener Daten zu speichern und das ordnungsgemäße Funktionieren der Website zu gewährleisten<br><br>
 
-    <small>For information in german, refer to the
-        <a href="/imprint"
-           target="_blank" rel="noopener noreferrer nofollow">
-            imprint</a>
-    </small>
-
-    <br><br>
-
-    <button class="btn btn--warning" id="cookie-consent-btn">Agree</button>
+    <button class="btn btn--warning" id="cookie-consent-btn">Zustimmen</button>
 </div>
-
-
-
 
 
 
@@ -198,6 +186,7 @@
 
     document.getElementById('cookie-consent-btn').addEventListener('click', setCookieConsent);
 </script>
+
         
 
       <div class="initial-content">
@@ -211,19 +200,30 @@
 
 
 <div class="page__hero--overlay"
-     style=" background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/header.webp');; height: 100vh; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-  
-    <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
-          Nord Performance Coaching
+     style="text-align: center;  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/header.jpg');; height: 90vh; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
 
-      </h1>
-      
-        <p class="page__lead">
-</p>
-      
-      
+  
+
+  <div class="wrapper">
+    <h1 id="page-title" class="page__title margin-top home-title" itemprop="headline">
+      Nord Performance
+
+    </h1>
+
+    <!-- Instagram buttons positioned in the bottom right -->
+    <div class="instagram-buttons">
+      <a href="https://www.instagram.com/nord_performance_coaching/" rel="noopener noreferrer nofollow" target="_blank" class="btn btn--primary">
+        <i class="fab fa-instagram" aria-hidden="true"></i> NP Coaching
+      </a>
+      <a href="https://www.instagram.com/fitnessfelix10/" rel="noopener noreferrer nofollow" target="_blank" class="btn btn--primary margin-top-xs">
+        <i class="fab fa-instagram" aria-hidden="true"></i> Felix Brüning
+      </a>
     </div>
+  </div>
+
+
+
+
   
   
 </div>
@@ -232,7 +232,110 @@
 
 <div id="main" role="main">
     <section class="page__content" itemprop="text">
-      
+      <section id="goals">
+
+  <h1>Deine Ziele</h1>
+
+  
+
+<div class="round-image-container">
+
+
+<div class="round-image-box round-image-box-third">
+
+<div class="round-image">
+<img src=/assets/images/competitions.png>
+</div>
+
+<h3>Wettkämpfe</h3>
+
+
+</div>
+
+
+<div class="round-image-box round-image-box-third">
+
+<div class="round-image">
+<img src=/assets/images/strength.png>
+</div>
+
+<h3>Stark werden / Muskeln aufbauen</h3>
+
+
+</div>
+
+
+<div class="round-image-box round-image-box-third">
+
+<div class="round-image">
+<img src=/assets/images/lifestyle.png>
+</div>
+
+<h3>Lifestyle / Gesundheit</h3>
+
+
+</div>
+
+</div>
+
+  <a class="btn btn--success btn--large btn--block" href="/contact">Coaching anfragen!</a>
+
+</section>
+
+
+
+
+
+
+<section id="services">
+
+  <h1 class="margin-top-m">Angebote</h1>
+  <b class="big italic">—Online Coaching—</b>
+
+  <div class="box-container margin-top-xs">
+
+    <div class="box box--success">
+      <b class="big">365 Coaching</b><br>
+      <p class="italic">–160 €–</p>
+      <ul>
+        <li>Ausführliche Eingangsanalyse</li>
+        <li>Individuelle, flexible und periodisierte Trainingsplanung</li>
+        <li>Schnelles Feedback zu jeder Trainingseinheit</li>
+        <li>Ggf. Wettkampfvorbereitung</li>
+      </ul>
+      <a class="btn btn--primary" href="/contact">Jetzt anfragen</a><br><br>
+    </div>
+
+    <div class="box box-half box--success">
+      <b class="big">Trainingsplanung</b><br>
+      <p class="italic">–120 € erster TP, danach 90 €–</p>
+      <ul>
+        <li>Ausführliche Eingangsanalyse</li>
+        <li>Individuelle Planung für 5-8 Wochen</li>
+        <li>Bei erneuter Buchung gibt es eine Feedbackrunde und darauf aufbauend den nächsten Trainingsblock</li>
+      </ul>
+      <a class="btn btn--primary" href="/contact">Jetzt anfragen</a><br><br>
+    </div>
+
+    <div class="box box-half box--success">
+      <b class="big">Online Beratung</b><br>
+      <p class="italic">–100 €–</p>
+        45min - 1:1 Meeting z.B.:
+        <ul>
+          <li>Verletzungs-/Beschwerdenmanagement</li>
+          <li>Trainingsberatung / Wissensaustausch (Training, medizinisch, therapeutisch)</li>
+          <li>(Sport-) Physiotherapeutisches Coaching / Mentoring</li>
+        </ul>
+      <a class="btn btn--primary" href="/contact">Jetzt anfragen</a><br><br>
+    </div>
+
+  </div>
+
+  <p class="italic margin-top-xs">* Ermäßigungen für Schüler:Innen, Studierende oder Azubis nach Absprache möglich</p>
+
+</section>
+
+
     </section>
 </div>
 
@@ -253,6 +356,11 @@
     
     
     
+    <li class="socials__item">
+      <a href="mailto: nordperformancecoaching@gmail.com" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Email">
+        <i class="fa fa-envelope footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
     
     
     
@@ -262,6 +370,21 @@
     
     
     
+    
+    
+    <li class="socials__item">
+      <a href="https://www.instagram.com/nord_performance_coaching/" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Instagram: Nord Performance Coaching">
+        <i class="fab fa-instagram footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+    
+    
+    <li class="socials__item">
+      <a href="hhttps://www.instagram.com/fitnessfelix10/" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Instagram: Felix Brüning">
+        <i class="fab fa-instagram footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
     
     
     
@@ -279,7 +402,7 @@
 
   </div>
 
-  <div class="page__footer-copyright">&copy; 2024 Per Starke Web Development.  Created by <a rel="noopener noreferrer nofollow" target="_blank"href="https://perstarke-webdev.de">Per Starke Web Development</a></div>
+  <div class="page__footer-copyright">&copy; 2024 Felix Brüning.  Created by <a rel="noopener noreferrer nofollow" target="_blank"href="https://perstarke-webdev.de">Per Starke Web Development</a></div>
 
         </footer>
       </div>
@@ -290,7 +413,29 @@
   <script src="/assets/js/main.min.js"></script>
 
 
+<script src="/assets/js/swiper-bundle.min.js"></script>
 
+
+
+
+<script>
+      document.addEventListener('DOMContentLoaded', function () {
+  var mySwiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // Enable smooth sliding
+    speed: 400,
+  });
+});
+
+    </script>
 
 
   </body>

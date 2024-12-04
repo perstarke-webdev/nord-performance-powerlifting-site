@@ -182,6 +182,7 @@ text-align: center;
   &--overlay {
     position: relative;
     margin-bottom: 2em;
+    margin-top: -7em;
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
