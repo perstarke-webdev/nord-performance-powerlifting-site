@@ -65,9 +65,21 @@
 
 
 .testimonial {
+    margin: 0 3vw 0 3vw;
     padding: 1rem;
 }
 
+@media screen and (max-width: 1400px) {
+    .testimonial {
+        margin: 0 4vw 0 4vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .testimonial {
+        margin: 0;
+    }
+}
 
 li {
     list-style-type: None;
